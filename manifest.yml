@@ -1,6 +1,7 @@
 ---
 applications:
-- name: restbookstore
+- name: REST Book Store
+  host: restbookstore
   buildpack: bwce_buildpack
   memory: 1024M
   path: target/tibco.bwce.sample.binding.rest.BookStore.application_1.0.0.ear
