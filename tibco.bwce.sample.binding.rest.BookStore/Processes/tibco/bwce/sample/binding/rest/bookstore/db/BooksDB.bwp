@@ -3068,6 +3068,7 @@
                                     name="config" xsi:type="activityconfig:EMFProperty">
                                     <type href="http://ns.tibco.com/bw/palette/jdbc#//JDBCQueryActivity"/>
                                     <value maxRows="100"
+                                    sharedResourceProperty="jdbcProperty"
                                     sqlStatement="SELECT *&#xa;  FROM &quot;public&quot;.&quot;books&quot;&#xa;"
                                     timeout="10" xsi:type="jdbcPalette:JDBCQueryActivity">
                                     <columnMetadata
