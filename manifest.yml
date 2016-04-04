@@ -1,6 +1,6 @@
 ---
 applications:
-- name: REST Book Store
+- name: "REST Book Store"
   host: restbookstore
   buildpack: bwce_buildpack
   memory: 1024M
